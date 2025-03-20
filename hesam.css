@@ -1,0 +1,153 @@
+
+#btn1{
+    background-color: rgb(255, 34, 0);
+  /* text-align: left; */
+    margin-right: 50px
+}
+.btn-old{
+    border-style: solid;
+    border-color:black;
+    width: 3cm;
+    /* text-align: left; */
+    font-weight: bold;
+    height: 30px;
+    border-radius: 15px;
+
+}
+
+#btn2{
+    background-color: rgb(0, 255, 47);
+    margin-left: 50px;
+
+    /* text-align: left; */
+    
+    width: 200px; 
+    max-width: 100px;
+    min-width: 20px;
+}
+.div-old1{
+    background-color: rgba(28, 27, 27, 0.3);
+    height: 3cm;
+/* text-shadow: rgb(31, 61, 251); */
+direction: rtl;
+text-align: center;
+padding-top: 50px;
+     /* text-shadow: 4px 2px white; */
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+font-weight:bold;
+color: white;
+text-align: center;
+border-radius: 15px;
+transition: 2s;
+}
+.div1-old:hover{
+    background-color: rgba(12, 12, 12,0.7);
+    cursor: pointer;
+    font-size: 30px;
+}
+.body{
+    background-image: url("../h.jpeg");
+    background-size: cover;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #07efeb;
+    min-width: 160px;
+    box-shadow: 12px 8px 16px 0px rgba(2, 247, 19, 0.372);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .image1{
+    width: 50%;
+    max-width: 200px;
+    min-width: 100px;
+    opacity: 0.5;
+    border-radius: 20px;
+  }
+  .image1:hover{
+    opacity: 1;
+    transition: 2s;
+  }
+ .label1{
+  border-radius: 22px;
+ }
+ .bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(248 249 250 / 13%) !important;
+ }
+
+ .div2 {
+    background-color: red;
+    height: 100px;
+ }
+
+ .div-in {
+  background-color: blue;
+  height: 50px;
+ }
+ .bg-body-tertiary2 {
+  --bs-bg-opacity: 1;
+  background-color: #1a2234;
+}
+.img1 {
+  width: 30%;
+  text-align: center;
+}
+.body2 {
+  background-color: rgb(27, 28, 44) !important;
+}
+.div-bs {
+  background-color: rgba(58, 61, 103, 0.735);
+  width: 50%;
+  height: 65%;
+}
+.li-1 {
+  float: right !important;
+  color: whitesmoke !important;
+}
+.nav-link {
+  white-space: nowrap;
+  padding: 8px 12px;
+}
+
+/* جلوگیری از رفتن متن به خط بعدی */
+.nav-link {
+  white-space: nowrap;
+  padding: 8px 12px;
+}
+
+/* فاصله بین آیتم‌های منو */
+.nav-item {
+  margin-left: 10px;
+}
+
+/* تنظیمات Flexbox برای منو */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* افزایش عرض منو */
+.navbar-collapse {
+  width: 100%;
+}
+
+/* جهت Flexbox برای حالت RTL */
+.navbar-nav {
+  direction: rtl;
+}
+.logo-4 {
+  width: 10% !important;
+}
